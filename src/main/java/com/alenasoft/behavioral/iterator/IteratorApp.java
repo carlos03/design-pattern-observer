@@ -1,5 +1,8 @@
 package com.alenasoft.behavioral.iterator;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class IteratorApp {
 
   public static void main(String[] args) {
@@ -8,6 +11,10 @@ public class IteratorApp {
 
     Aggregate facebookUserAggregate = new FacebookUserAggregate();
     printItemsFrom(facebookUserAggregate.createIterator());
+
+    Aggregate creUserAggregate = new CREUserAggregate();
+    printItemsFrom(creUserAggregate.createIterator());
+
   }
 
   public static void printItemsFrom(Iterator iterator) {
