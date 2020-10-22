@@ -1,7 +1,7 @@
-# Patrones de diseño - patron iterator #
+# Patrones de diseño - patron observer #
 
-## Implementacion del patron iterator ##
-Para el ejercicio propuesto del Taller-SDP-01: Iterator Pattern se completo la tarea agregando los usuario de CRE para mostrar su informacion.
+## Implementacion del patron observer ##
+Para el ejercicio propuesto del Taller-SDP-02: Observer Pattern se completo la tarea agregando la vista PieChartView a los aboervadores del modelo.
 
 ### integrantes del grupo ###
 1. Carlos G. Cruz Andia
@@ -10,4 +10,4 @@ Para el ejercicio propuesto del Taller-SDP-01: Iterator Pattern se completo la t
 
 ### Instrucciones para abrir la tarea ###
 1. Descargar el proyecto.
-2. Moverse a la rama iterator_userDataCre
+2. Moverse a la rama observer_PieChartView
